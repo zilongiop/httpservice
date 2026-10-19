@@ -1,0 +1,24 @@
+name: http_service
+description: 局域网文件共享 · 一键启动 HTTP 服务，其他设备通过链接下载和访问共享文件/文件夹。
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^8.1.2
+  mime: ^1.0.6
+  qr_flutter: ^4.1.0
+  window_manager: ^0.4.3
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
